@@ -9,7 +9,7 @@ Overview
 
 Core gameplay
 * The game world is presented as field of hexagons
-* The character is prehistoric man
+* The character is prehistoric man. Always in the middle of the screen.
 * Few first goals are to craft a weapon, to hunt a deer, to make a fire, to cook a food
 * The game is turn based
 * The character can spend a turn to move to adjasted hexagon, or to do a context dependent action on a current hexagon
