@@ -12,7 +12,7 @@ Core gameplay
 * The character is prehistoric man
 * Few first goals are to craft a weapon, to hunt a deer, to make a fire, to cook a food
 * The game is turn based
-* The character can spend a turn to move to adjasted hexagon, or to do a context dependent action on an occupied hexagon
+* The character can spend a turn to move to adjasted hexagon, or to do a context dependent action on a current hexagon
 * Possible actions on a hexagon are : collect, use and attack
 * Collect is low priority action, executed when there is nothing to use or attack. Example: pick up a stone
 * Use is medium priority action, executed on an object if there is nothing to attack. Example: use a fire to cook
