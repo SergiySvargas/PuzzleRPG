@@ -1,0 +1,19 @@
+Overview
+* PuzzleRPG is turn based smartphone roguelike
+* Target audience are RPG fans in public transport, playing with 1 hand
+* The game should have simple visuals but deep gameplay - nearly like MUDs of the past
+* The goal of the game is to survive as long as possible in randomly generated world
+* The gameplay is about collecting resources, crafting valuables and fighting enemies
+* To survive, the character must fulfil primary needs (to eat, to sleep, etc)
+* The difficulty escalates over time, so the only way to survive is to develop more and more advanced tools
+
+Core gameplay
+* The game world is presented as field of hexagons
+* The character is prehistoric man
+* Few first goals are to craft a weapon, to hunt a deer, to make a fire, to cook a food
+* The game is turn based
+* The character can spend a turn to move to adjasted hexagon, or to do a context dependent action on an occupied hexagon
+* Possible actions on a hexagon are : collect, use and attack
+* Collect is low priority action, executed when there is nothing to use or attack. Example: pick up a stone
+* Use is medium priority action, executed on an object if there is nothing to attack. Example: use a fire to cook
+* Attack is high priority action, executed on an enemy or prey in a hexagon
