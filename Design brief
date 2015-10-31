@@ -9,11 +9,30 @@ Overview
 
 Core gameplay
 * The game world is presented as field of hexagons
-* The character is prehistoric man. Always in the middle of the screen.
-* Few first goals are to craft a weapon, to hunt a deer, to make a fire, to cook a food
 * The game is turn based
-* The character can spend a turn to move to adjasted hexagon, or to do a context dependent action on a current hexagon
-* Possible actions on a hexagon are : collect, use and attack
-* Collect is low priority action, executed when there is nothing to use or attack. Example: pick up a stone
-* Use is medium priority action, executed on an object if there is nothing to attack. Example: use a fire to cook
-* Attack is high priority action, executed on an enemy or prey in a hexagon
+* The character is prehistoric man. Always in the middle of the screen.
+* The character can spend a turn to move to:
+** Move to neighbour empty hexagon
+** Do an action on non-empty neighbour hexagon
+* Up to 6 neighbour hexagons are interactive. Others are not
+* There are 5 rows of hexagons on screen, containing 5 hexagons each
+** 3 rows of 5 full hexagons
+** 2 rows of 4 full and 2 half-hexagons
+* Few first goals are:
+** To craft a weapon
+** To hunt a deer
+** To make a fire
+** To cook a food
+* Those goals are achievable through actions on hexagons:
+** To pick a stick, a liana, and a sharp stone
+** To attack a deer
+** To pick up a wood for the fire
+** To cook a meat of the deer on the fire
+* Picked up items are put into inventory
+** Inventory is 5×5 grid of square slots
+** One item per inventory slot
+** Can craft simple items in the inventory
+
+UI
+* There is a button to show and hide inventory
+* There are meters of health, hunger and fatigue
